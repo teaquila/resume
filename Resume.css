@@ -1,0 +1,104 @@
+.side-panel {
+    background: linear-gradient(to bottom right, black,rgb(71, 49, 49),black );
+    width: 25%;    
+    position: fixed;
+    height: 100vh;
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+.bg{
+    background: linear-gradient(120deg, rgb(17, 18, 18),rgb(54, 70, 70),rgb(70, 95, 95),rgb(34, 77, 77));
+}
+
+.main{
+   
+    display: inline-block;
+    margin-left: 28%;
+}
+
+.picture {
+    width: 60%;
+    margin-top: 30px;
+}
+.name{
+    color: white;
+    font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.intro{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.sub{
+    color: white;
+    margin-top: 0%;
+}
+
+.social {
+    width: 60%;
+    margin-top: 20%;
+    color: white;
+    margin-bottom: 0%;
+    
+}
+a:link{
+    color: white;
+    margin-bottom: 2%;
+}
+a:visited{
+    color: white;
+}
+.num {
+    width: 60%;
+    margin-top: 3%;
+    color: white;
+    margin-bottom: 0%;  
+}
+
+.heading{
+    color: white;
+    font-size: 1em;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.skills{
+    color: white;
+    font-size: 1em;
+    margin-left: 10%;
+    list-style: none;
+}
+
+
+
+.introduction{
+    margin-top: 2%;
+    text-align: justify;
+    color: white;
+    font-size: 1em;
+}
+
+.exp{
+    color: white;
+    font: 10em;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.exp-format{
+    margin-bottom: 3%;
+    /* margin-top: 2%; */
+    line-break: auto;
+    color: white;
+}
+
+html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
